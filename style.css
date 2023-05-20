@@ -37,7 +37,7 @@ h3 {
     padding: 13px 22px;
 }
 
-a{
+/* a{
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -46,7 +46,7 @@ a{
     line-height: 28px;
     letter-spacing: 0.15px;
     color: #05664F;
-}
+} */
 
 /* Header */
 
@@ -488,6 +488,7 @@ a{
 
 .countries{
     background: linear-gradient(180deg, #FFFFFF 0%, #DFFFF7 100%);
+    position: relative;
 }
 
 .coutries__line{
@@ -588,18 +589,32 @@ position: absolute;
     margin: 20px 0;
     padding-left: 50px;
 }
+
+/* Partners */
+
 .partners {
-    padding: 112px 252px 251px 148px;
     background: radial-gradient(100.28% 100.28% at 50% 50%, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    height: 521px;
+    padding: 113px 202px ;
+    position: relative;
+
+}
+
+.partners__lain-foto {
+    position: absolute;
+    left: -14px;
+    bottom: -422px;
+    opacity: 0.7;
+    
 }
 
 .partners__block {
+    width: 1071px;
     height: 460px;
     background: linear-gradient(98.14deg, rgba(255, 255, 255, 0.31) 5.19%, rgba(252, 252, 252, 0.21) 46.36%, rgba(248, 248, 248, 0.15) 93.43%);
 }
-
 .partners__title {
-    margin: 46px 100px;
+    padding: 46px 100px 4px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -607,4 +622,65 @@ position: absolute;
     line-height: 118px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.partners__line {
+    width: 859px;
+    margin-left: 100px;
+    border: 1px solid #FFFFFF;
+}
+
+.partners__carusel {
+    padding: 82px 0;
+}
+
+.partners__partner1 {
+    height: 47px;
+    width: 203.27499389648438px;
+    padding: 20px 70px 70px 0px;
+}
+
+.partners__partner2 {
+    height: 106.88059997558594px;
+    width: 217px;
+}
+
+.partners__partner3 {
+    height: 100px;
+    width: 253px;
+}
+
+.partners__partner4 {
+    height: 90px;
+    width: 164.1999969482422px;
+}
+
+.partners__partner5 {
+    height: 113.55931854248047px;
+    width: 134px;
+    padding: -20px 0;
+}
+
+.contact{
+    background: #07161B;
+}
+
+.contact__logo{
+    padding: 154px 71px 180px;
+}
+
+.contact__font {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.contact__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    
 }
