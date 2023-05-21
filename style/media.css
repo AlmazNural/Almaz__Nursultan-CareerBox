@@ -1,0 +1,246 @@
+@media screen and (max-width:431px) {
+    .container {
+        max-width: 431px;
+        padding: 0 15px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .header__wrapper {
+        display: none;
+    }
+
+    .career {
+        width: 430px;
+        height: 1026px;
+        background: #010405;
+    }
+
+    .career__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 206px;
+        text-align: center;
+        background: linear-gradient(180deg, #FFFFFF 0%, #D1FF5D 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        padding-top: 102px;
+    }
+
+    .savings__wrapper {
+        display: block;
+        margin: 0 92px;
+    }
+
+    /* About */
+
+    .about__logo {
+        height: 137.61341857910156px;
+        width: 499.2962951660156px;
+        left: -45px;
+        border-radius: 0px;
+        position: absolute;
+        left: -30px;
+    }
+
+    .about__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 60px;
+        text-transform: uppercase;
+        padding-top: 100px;
+        padding-bottom: 63px;
+    }
+
+    .about__img {
+        display: none;
+    }
+
+    .about__wr__teams {
+        display: none;
+    }
+
+    .about__teams {
+        display: none;
+    }
+
+    .about__text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 81px;
+    }
+
+    /* information */
+
+    .information__wrapper {
+        display: block;
+    }
+
+    .information__adapt {
+        display: flex;
+    }
+
+    .information__img {
+        height: 457px;
+    }
+
+    .information__krug {
+        display: none;
+    }
+
+    .information__box {
+        width: 416px;
+        background: rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(10.1395px);
+        border-radius: 10px;
+    }
+
+    .information__agency {
+        padding-left: 23px;
+    }
+
+    .information__staffing {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    /* Why */
+
+    .why__wrapper {
+        display: block;
+    }
+
+    .why__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 63px;
+        text-transform: uppercase;
+        color: #D1FF5D;
+        bottom: -47px;
+        position: relative;
+    }
+
+    .why__swic {
+        padding: 1px;
+    }
+
+    .why__box {
+        height: 450px;
+        margin-bottom: 65px;
+        position: relative;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10.1395px);
+        padding: 28px 21px 35px 29px;
+        border-radius: 15.1075px;
+        z-index: 99;
+    }
+
+    .why__logo::before {
+        content: 'why us?';
+        max-width: 478px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 76px;
+        line-height: 85px;
+        margin-right: -400px;
+        text-transform: uppercase;
+        -webkit-text-stroke: 4px inherit;
+        mix-blend-mode: screen;
+        z-index: 0;
+        background: linear-gradient(180.05deg, rgba(255, 255, 255, 0.2) 80.35%, rgba(255, 255, 255, 0) 182.77%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        position: absolute;
+    }
+
+    /* Countries */
+
+    .countries {
+        height: 522px;
+        width: 430px;
+    }
+
+    .countries__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #05664F;
+        margin-left: -137px;
+    }
+
+    .countries__map {
+        display: none;
+    }
+
+    .countries__logo {
+        display: none;
+    }
+
+    /* Partners */
+
+    .partners__line {
+        display: none;
+    }
+
+    .partners__title {
+        padding: 4px 25px;
+        font-family: 'Montserrat';
+        font-size: 40px;
+        line-height: 118px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .partners__carusel {
+        padding: 1px;
+    }
+
+    .partners__block {
+        margin-left: -187px;
+        width: 390px;
+        background: linear-gradient(98.14deg, rgba(255, 255, 255, 0.31) 5.19%, rgba(252, 252, 252, 0.21) 46.36%, rgba(248, 248, 248, 0.15) 93.43%);
+        border-radius: 10px;
+    }
+
+    /* Contact */
+
+    .contact__wrapper {
+        display: block;
+    }
+
+    .contact__title {
+        font-size: 50px;
+    }
+
+    .contact__logo {
+        padding: 10px 51px 0;
+    }
+
+    .contact__line {
+        width: 300px;
+        border: 1px solid rgba(255, 255, 255, 0.47);
+        transform: rotate(0.14deg);
+    }
+
+}

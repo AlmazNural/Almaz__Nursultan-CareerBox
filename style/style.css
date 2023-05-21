@@ -24,7 +24,14 @@
 
 body {
     background: #0D2228;
+}
 
+.vl {
+    display: inline-block;
+    padding: 8px;
+    bottom: 37px;
+    margin-right: 20px;
+    border-right: 1px solid #d0d0d0;
 }
 
 h3 {
@@ -37,16 +44,6 @@ h3 {
     padding: 13px 22px;
 }
 
-/* a{
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0.15px;
-    color: #05664F;
-} */
 
 /* Header */
 
@@ -57,11 +54,12 @@ h3 {
 
 .header__scrol {
     position: fixed;
-    top: 0;
-    z-index: 1;
+    z-index: 100;
     width: 100%;
     height: 100%;
-
+    height: 104px;
+    background: rgba(13, 34, 40, 0.3);
+    mix-blend-mode: normal;
 }
 
 .header__wrapper {
@@ -78,14 +76,6 @@ h3 {
     line-height: 27px;
     text-decoration: none;
     color: #FFFFFF;
-}
-
-.vl {
-    display: inline-block;
-    padding: 8px;
-    bottom: 37px;
-    margin-right: 20px;
-    border-right: 1px solid #d0d0d0;
 }
 
 .header__btn {
@@ -162,8 +152,9 @@ h3 {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(4.38304px);
     border-radius: 6.53059px;
-
 }
+
+
 
 .cost__saving-img {
     padding: 14px 64px 7px;
@@ -517,7 +508,7 @@ position: absolute;
     height: 800vh;
     align-items: center;
     background-size: cover;
-    background: url("./images/map.png") no-repeat center;
+    background: url("./map.png") no-repeat center;
     height: 754px;
     width: 1194px;
     padding-left: 263px;
@@ -582,6 +573,17 @@ position: absolute;
     border-radius: 10px;
 }
 
+.countries__point{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: #05664F;
+}
+
 .countries__country {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -597,7 +599,6 @@ position: absolute;
     height: 521px;
     padding: 113px 202px ;
     position: relative;
-
 }
 
 .partners__lain-foto {
@@ -612,6 +613,7 @@ position: absolute;
     width: 1071px;
     height: 460px;
     background: linear-gradient(98.14deg, rgba(255, 255, 255, 0.31) 5.19%, rgba(252, 252, 252, 0.21) 46.36%, rgba(248, 248, 248, 0.15) 93.43%);
+    border-radius: 10px;
 }
 .partners__title {
     padding: 46px 100px 4px;
@@ -661,12 +663,14 @@ position: absolute;
     padding: -20px 0;
 }
 
+/* Contact */
+
 .contact{
     background: #07161B;
 }
 
 .contact__logo{
-    padding: 154px 71px 180px;
+    padding: 154px 51px  180px;
 }
 
 .contact__font {
@@ -680,7 +684,54 @@ position: absolute;
 }
 .contact__wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 10px;
     
+}
+
+.contact__info{
+    padding: 132px 134px ;
+}
+
+.contact__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 121px;
+    color: #D1FF5D;
+    padding-top: 61px;
+}
+.contact__line {
+    width: 484px;
+    border: 1px solid rgba(255, 255, 255, 0.47);
+    transform: rotate(0.14deg);
+}
+
+.contact__wrapp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__svg {
+    padding-top: 44px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: -10px;
+}
+
+.contact__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+    padding-top: 44px;
+    color: #FFFFFF;
+}
+
+.contact__mesg{
+    padding: 37px;
 }
